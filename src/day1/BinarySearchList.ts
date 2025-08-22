@@ -15,6 +15,7 @@ export default function bs_list(haystack: number[], needle: number): boolean {
         m = Math.floor((hi + lo) / 2)
     }
     return true;
+    // O(log(n))
     */
 
     let lo = 0;
@@ -30,4 +31,5 @@ export default function bs_list(haystack: number[], needle: number): boolean {
         }
     }
     return false;
+    // O(log(n))
 }
